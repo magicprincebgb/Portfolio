@@ -170,15 +170,21 @@ a{color:inherit;text-decoration:none}
 
 /* Mobile tweaks */
 @media (max-width: 768px){
+  .container{
+    padding: 0 20px;  /* your desired mobile side padding, applies to hero too */
+  }
+
   .hero-grid{ grid-template-columns: 1fr; }
 
   /* keep the same top alignment as "Hi, I'm" */
-  .section.hero{ padding: var(--hero-pt-mobile) 0 96px; }
+  .section.hero{
+    padding-block: var(--hero-pt-mobile) 96px;  /* top/bottom ONLY */
+  }
 
   .hero-portrait{
-    position: absolute;   /* now anchor to .section.hero */
+    position: absolute;
     right: 16px;
-    top: var(--hero-pt-mobile);     /* perfectly lines up with hero’s top padding */
+    top: var(--hero-pt-mobile);
     width: 110px;
     margin: 0;
     z-index: 0;
@@ -186,6 +192,6 @@ a{color:inherit;text-decoration:none}
   .hero-copy{
     position: relative;
     z-index: 1;
-    padding-right: 128px;  /* space for the circle on mobile */
+    padding-right: 128px;
   }
 }
