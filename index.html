@@ -1,0 +1,190 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Portfolio of Md Mihraz Hossain Niloy</title>
+  <meta name="description" content="Md Mihraz Hossain Niloy — Graphics Designer, AI/ML Expert, Competitive C++ Programmer, and Web Developer." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css" />
+  <script defer src="main.js"></script>
+</head>
+<body>
+  <a class="skip" href="#content">Skip to content</a>
+
+  <header class="site-header">
+    <nav class="container nav">
+      <a class="brand" href="#top">Welcome</a>
+      <button class="nav-toggle" aria-expanded="false" aria-label="Toggle navigation">☰</button>
+      <ul class="nav-links">
+        <li><a href="#about"><span class="num">01</span> About</a></li>
+        <li><a href="#experience"><span class="num">02</span> Experience</a></li>
+        <li><a href="#projects"><span class="num">03</span> Projects</a></li>
+        <li><a href="#contact"><span class="num">04</span> Contact</a></li>
+        <li><a class="btn" href="assets/Resume_Md_Mihraz_Hossain_Niloy.pdf" target="_blank" rel="noopener" download>Resume</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="content">
+    <!-- HERO -->
+    <section id="top" class="section hero container reveal">
+  <div class="hero-grid">
+    <!-- LEFT: your existing copy -->
+    <div class="hero-copy">
+      <p class="eyebrow">Hi, I’m</p>
+      <h1 class="title">Md Mihraz <span class="accent">Hossain Niloy</span>.</h1>
+      <h2 class="subtitle">
+        Welcome to my website,<span class="accent"> Feel free </span>to explore my <span class="accent">world</span> ahead.
+      </h2>
+      <p class="lead">
+        B.Sc in <strong>Software Engineering</strong> at <strong>Sichuan University</strong>, a professional
+        <strong>graphics designer</strong>, an <strong>AI/ML expert</strong>, a <strong>competitive C++ programmer</strong>, and a
+        <strong>web developer</strong>.
+      </p>
+      <div class="cta">
+        <a class="btn" href="#projects">My projects</a>
+        <a class="btn ghost" href="#contact">Get in touch</a>
+      </div>
+    </div>
+
+    <!-- RIGHT: circular portrait -->
+    <figure class="hero-portrait">
+      <img src="assets/me.jpg" alt="Md Mihraz Hossain Niloy" loading="lazy" />
+    </figure>
+  </div>
+</section>
+
+
+    <!-- ABOUT -->
+    <section id="about" class="section container split reveal">
+      <div class="section-head">
+        <h3><span class="num">01</span> About</h3>
+      </div>
+      <div class="section-body">
+        <p>I’m Mihraz Hossain, currently studying Software Engineering in Sichuan University, China. I like working on problems that blend <strong>machine learning</strong>,
+        <strong>graphics & UX</strong>, and <strong>systems programming</strong>. My goal is to ship useful tools and polished interfaces.</p>
+        <p>These days I’m focusing on <em>edge inference</em>, <em>accessible design systems</em>, and <em>fast web apps</em>. I enjoy small teams,
+        rapid iteration, and clear metrics.</p>
+        <ul class="skills">
+          <li>C++ (STL / DSA / Competitive)</li>
+          <li>Java (OOP)</li>
+          <li>Python</li>
+          <li>HTML / CSS</li>
+          <li>JavaScript / Bootstrap</li>
+          <li>React / Node / Express</li>
+          <li>Adobe Photoshop / Illustrator</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- EXPERIENCE -->
+    <section id="experience" class="section container split reveal">
+      <div class="section-head">
+        <h3><span class="num">02</span> Experience</h3>
+      </div>
+      <div class="section-body">
+        <ol class="timeline">
+          <li>
+            <div class="time">Present</div>
+            <div class="item">
+              <h4>Independent Research & Freelance</h4>
+              <p>Ship AI prototypes, design systems, and developer tooling.</p>
+              <ul>
+                <li>Real‑time <strong>quantized detection</strong> on CPU‑only devices.</li>
+                <li>Cross‑brand <strong>design tokens</strong> & accessible UI library.</li>
+                <li>Working on <strong>AI/ML models</strong> optimization.</li>
+              </ul>
+            </div>
+          </li>
+          <li>
+            <div class="time">2023 — 2027</div>
+            <div class="item">
+              <h4>Sichuan University — B.Sc Software Engineering</h4>
+              <p>Algorithms, data structures, software architecture, databases, and CV electives.</p>
+              <ul>
+                <li>Competitive programming contests.</li>
+                <li>Browser ML demos using WebGL/WebGPU.</li>
+              </ul>
+            </div>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects" class="section container split reveal">
+      <div class="section-head">
+        <h3><span class="num">03</span> Projects</h3>
+      </div>
+      <div class="section-body projects">
+        <article class="project">
+          <div class="project-media"><img src="assets/feature-vision.svg" alt="Vision project"/></div>
+          <div class="project-body">
+            <h4 class="project-title"><a href="#" target="_blank" rel="noopener">Real‑time Object Detection</a></h4>
+            <p>PyTorch training pipeline with QAT → ONNX. Optimized scheduling, graph fusions, and tiling for CPU‑only devices.</p>
+            <ul class="tags"><li>PyTorch</li><li>ONNX</li><li>QAT</li><li>OpenCV</li></ul>
+          </div>
+        </article>
+
+        <article class="project">
+          <div class="project-media"><img src="assets/feature-design.svg" alt="Design system"/></div>
+          <div class="project-body">
+            <h4 class="project-title"><a href="#" target="_blank" rel="noopener">Design System & Landing</a></h4>
+            <p>Design tokens, grid, and accessible components wired to a fast static landing. Great Core Web Vitals.</p>
+            <ul class="tags"><li>Figma</li><li>Design Tokens</li><li>Web</li></ul>
+          </div>
+        </article>
+
+        <article class="project">
+          <div class="project-media"><img src="assets/feature-cpp.svg" alt="C++ toolkit"/></div>
+          <div class="project-body">
+            <h4 class="project-title"><a href="#" target="_blank" rel="noopener">Competitive C++ Toolkit</a></h4>
+            <p>Header‑only DS/Algo library with micro‑benchmarks. Built for clarity and speed.</p>
+            <ul class="tags"><li>C++</li><li>Algorithms</li><li>Benchmarks</li></ul>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- OTHER WORK -->
+    <section class="section container split reveal">
+      <div class="section-head"><h3><span class="num">04</span> Other Work</h3></div>
+      <div class="section-body">
+        <ul class="cards">
+          <li class="card">
+            <a href="#" class="card-title">WebGL ML Demos</a>
+            <p>Fun experiments that run models in the browser.</p>
+          </li>
+          <li class="card">
+            <a href="#" class="card-title">Vision Utilities</a>
+            <p>Small image processing helpers as a Python package.</p>
+          </li>
+          <li class="card">
+            <a href="#" class="card-title">UI Motion Kit</a>
+            <p>Reusable micro‑interactions for web apps.</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section container split reveal contact">
+      <div class="section-head"><h3><span class="num">05</span> Contact</h3></div>
+      <div class="section-body">
+        <p>If you have an opportunity or a cool idea, my inbox is always open.</p>
+        <a class="btn big" href="mailto:mihrazhossain@gmail.com">Say Hello</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© <span id="year"></span> Md Mihraz Hossain Niloy — Built with accessible HTML, modern CSS, and a sprinkle of JS.</p>
+    </div>
+  </footer>
+</body>
+</html>

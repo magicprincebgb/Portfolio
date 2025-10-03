@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700">
+  <defs>
+    <linearGradient id="gradDesign" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#64ffda"/>
+      <stop offset="1" stop-color="#a5b4fc"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="700" fill="#0d121a"/>
+  <rect x="60" y="60" width="1080" height="580" rx="24" fill="url(#gradDesign)" opacity=".18"/>
+  <text x="100" y="180" font-size="56" font-family="Inter,Arial,sans-serif" fill="#e6edf6" font-weight="800">
+    Design System
+  </text>
+</svg>
