@@ -138,15 +138,14 @@ a{color:inherit;text-decoration:none}
   display: block; }
 
 @media (max-width: 768px){
-  .section.hero{ position: relative;   /* <— important */
+  .hero-grid{ grid-template-columns: 1fr; }
+  .section.hero{
+  position: relative;   /* <— important */
   min-height: 100vh;
   padding: 120px 0;
-  display: block; }
-  .hero-grid{ width: 100%;
-  grid-template-columns: 1fr;
-  padding: 0; }
-
-  /* pin the circle to the top-right, over the hero */
+  display: block;
+}
+  /* align the circle with the hero’s top padding */
   .hero-portrait{
     position: absolute;
     right: 16px;
@@ -154,13 +153,12 @@ a{color:inherit;text-decoration:none}
     width: 110px;
     margin: 0;
     z-index: 0;
-    }
+  }
 
-  /* give the text some right padding so it doesn't collide */
   .hero-copy{
     position: relative;
     z-index: 1;
     padding-right: 128px; /* ≈ circle width + spacing so text doesn’t collide */
-   }
+  }
 }
 
