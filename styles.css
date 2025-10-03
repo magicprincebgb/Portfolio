@@ -138,12 +138,8 @@ a{color:inherit;text-decoration:none}
   display: block; }
 
 @media (max-width: 768px){
-  .section.hero{ padding: 80px 0; }
+  /*.section.hero{ padding: 80px 0; }*/
   .hero-grid{ width: 100%;
-  display: grid;
-  grid-template-columns: 1.6fr 0.6fr; /* adjust as before */
-  align-items: center;
-  gap: 28px;
   padding: 0; }
 
   /* pin the circle to the top-right, over the hero */
