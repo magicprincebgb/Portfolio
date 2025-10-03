@@ -191,6 +191,9 @@ a{color:inherit;text-decoration:none}
 
 /* Mobile tweaks */
 @media (max-width: 768px){
+  #about {
+    margin-top: 40px; 
+  }
   .container{
     padding: 0 20px;  
   }
@@ -214,8 +217,5 @@ a{color:inherit;text-decoration:none}
     position: relative;
     z-index: 1;
     padding-right: 128px;
-  }
-  #about {
-    margin-top: 40px; 
   }
 }
