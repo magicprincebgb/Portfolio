@@ -90,6 +90,10 @@ a{color:inherit;text-decoration:none}
 
 /* Accents */
 .accent{color:var(--accent)}
+.accentit{color: var(--accent);
+  font-family: 'JetBrains Mono', monospace;
+  letter-spacing: 0.5px;
+}
 
 /* --- Hero layout with portrait --- */
 .hero-grid {
